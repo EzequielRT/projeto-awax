@@ -21,6 +21,7 @@ header {
     align-items: center;
 }
 
+/* ----- Logo ----- */
 .logo {
     width: 100px;
 }
@@ -30,6 +31,7 @@ header {
     height: 80px;
 }
 
+/* ----- Menu ----- */
 .menu {
     flex: 1;
     display: flex;
@@ -68,6 +70,7 @@ header {
 
 /* ---------- MAIN ---------- */
 
+/* ----- Banner ----- */
 .banner {
     background-color: #333;
     height: calc(100vh - 100px);
@@ -124,4 +127,28 @@ header {
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 20px;
+}
+
+.banner .sliders-pointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.banner .pointer.active {
+    background-color: #b28756;
 }
