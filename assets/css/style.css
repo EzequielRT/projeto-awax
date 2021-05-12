@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 /* ---------- HEADER ---------- */
@@ -151,4 +152,9 @@ header {
 
 .banner .pointer.active {
     background-color: #b28756;
+}
+
+/* ----- Section Default ----- */
+.default {
+    background-color: #f00;
 }
