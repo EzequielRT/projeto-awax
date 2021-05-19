@@ -526,3 +526,20 @@ CSS DE AREAS ESPECIFICAS
 .section-happyclients .pointer.active {
     background-color: #b28756;
 }
+
+/* ----- Section Icons ----- */
+.default.icons {
+    background-color: #FFF;
+    border-top: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.section-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-icons .section-icons--items {
+    padding: 40px;
+}
