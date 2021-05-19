@@ -504,3 +504,25 @@ CSS DE AREAS ESPECIFICAS
     line-height: 25px;
     text-align: center;
 }
+
+.section-happyclients .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-happyclients .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-happyclients .pointer.active {
+    background-color: #b28756;
+}
