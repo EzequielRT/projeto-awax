@@ -463,3 +463,44 @@ CSS DE AREAS ESPECIFICAS
 .section-team--social a:hover {
     background-color: #b28756;
 }
+
+/* ----- Section Happy Clients ----- */
+.section-happyclients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-happyclient--avatar {
+    width: 120px;
+    height: auto;
+}
+
+.section-happyclient--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-happyclient--role {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.section-happyclient--quote {
+    margin-top: 25px;
+    width: 25px;
+    height: auto;
+}
+
+.section-happyclients p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+    max-width: 720px;
+    line-height: 25px;
+    text-align: center;
+}
