@@ -613,3 +613,10 @@ CSS DE AREAS ESPECIFICAS
 .card-price .button.active {
     background-color: #b28756;
 }
+
+/* ----- Section Primium ----- */
+.default.light.premium {
+    background-color: #FFF;
+    border-top: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+}
