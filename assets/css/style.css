@@ -614,9 +614,82 @@ CSS DE AREAS ESPECIFICAS
     background-color: #b28756;
 }
 
-/* ----- Section Primium ----- */
+/* ----- Section Premium ----- */
 .default.light.premium {
     background-color: #FFF;
     border-top: 1px solid #CFCFCF;
+}
+
+.section-premium {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-premium--right {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.feature:last-child {
+    margin-bottom: 0px;
+}
+
+.feature img {
+    width: 35px;
+    height: 29px;
+}
+
+.feature--text p {
+    margin-left: 25px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #777;
+    text-align: left;
+    max-width: 550px;
+}
+
+.feature--text span {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.premium .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.premium .pointer.active {
+    background-color: #b28756;
+}
+
+.premium .section-premium {
     border-bottom: 1px solid #CFCFCF;
+    padding-bottom: 40px;
+}
+
+.premium .btn {
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
