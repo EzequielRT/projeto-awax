@@ -703,6 +703,10 @@ CSS DE AREAS ESPECIFICAS
     flex: 1;
     text-align: center;
     padding: 15px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .section-fact .number {
