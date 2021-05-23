@@ -4,11 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Projeto Awax</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menu_mobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav").style.display == "flex") {
+                    document.querySelector(".menu nav").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav").style.display = "flex";
+                }
+            })
+        }
+    </script>
 </head>
 
 <body>
@@ -22,6 +33,11 @@
             </div>
             <!-- Menu -->
             <div class="menu">
+                <div class="menu_mobile">
+                    <div class="mn_line"></div>
+                    <div class="mn_line"></div>
+                    <div class="mn_line"></div>
+                </div>
                 <nav>
                     <ul>
                         <li class="active"><a href="#">Home</a></li>
