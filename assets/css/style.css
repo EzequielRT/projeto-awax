@@ -1008,8 +1008,42 @@ CSS DE AREAS ESPECIFICAS
         flex-direction: column;
         justify-content: space-around;
     }
+
     .logo {
         margin-left: 30px;
+    }
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-aboutus--right {
+        width: auto;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0px;
+    }
+
+    .section-team {
+        max-width: 580px;
+        max-height: 330px;
+        overflow-y: hidden;
     }
 }
 
