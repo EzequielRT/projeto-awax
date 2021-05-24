@@ -1067,6 +1067,43 @@ CSS DE AREAS ESPECIFICAS
         margin-top: 40px;
     }
 
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section--map--area {
+        width: auto;
+    }
+
+    .section--map--info {
+        width: auto;
+    }
+
+    .section--map--info-item {
+        margin-bottom: 20px;
+    }
+
+    .section--map--info-item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .section-footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .section-footer--right {
+        margin-bottom: 30px;
+    }
+
+    .section-footer--center {
+        margin-bottom: 30px;
+    }
+
+    .section-footer--left {
+        align-items: center;
+    }
 }
 
 @media (min-width: 1085px) and (max-width: 1190px) {
