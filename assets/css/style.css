@@ -1256,6 +1256,34 @@ CSS DE AREAS ESPECIFICAS
         max-width: 90%;
     }
 
+    .section-somefacts {
+        flex-direction: column;
+    }
+
+    .section-social {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-social--left {
+        margin: 0px;
+    }
+
+    .section-social--right {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .section-social--right .icon-text {
+        margin-right: 10px;
+    }
+
+    .section-contact {
+        max-width: 90vw;
+    }
+
     .section-map {
         padding-left: 30px;
         padding-right: 30px;
