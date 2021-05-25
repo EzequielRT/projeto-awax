@@ -1109,6 +1109,7 @@ CSS DE AREAS ESPECIFICAS
 
     .section-footer--center {
         margin-bottom: 30px;
+        text-align: justify;
     }
 
     .section-footer--left {
@@ -1285,8 +1286,8 @@ CSS DE AREAS ESPECIFICAS
     }
 
     .section-map {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 0px;
+        padding-bottom: 280px;
     }
 
     .section--map--area {
@@ -1295,14 +1296,30 @@ CSS DE AREAS ESPECIFICAS
 
     .section--map--info {
         width: auto;
+        padding: 20px;
     }
 
     .section--map--info-item {
         margin-bottom: 20px;
     }
 
+    .section--map--info-item:first-child {
+        font-size: 12px;
+    }
+
     .section--map--info-item:last-child {
         margin-bottom: 0px;
+    }
+
+    .section--map--info-item-img {
+        width: 25px;
+        height: 25px;
+        border-radius: 13px;
+        margin-right: 0px;
+    }
+
+    .section--map--info-item p {
+        margin-left: 5px;
     }
 
     .section-footer {
@@ -1312,10 +1329,13 @@ CSS DE AREAS ESPECIFICAS
 
     .section-footer--right {
         margin-bottom: 30px;
+        width: 90vw;
     }
 
     .section-footer--center {
         margin-bottom: 30px;
+        width: 90vw;
+        text-align: justify;
     }
 
     .section-footer--left {
