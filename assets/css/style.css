@@ -1175,6 +1175,12 @@ CSS DE AREAS ESPECIFICAS
 
     .section-aboutus--right {
         width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-aboutus--right img {
+        width: 95%;
     }
 
     .section-services {
@@ -1182,7 +1188,7 @@ CSS DE AREAS ESPECIFICAS
     }
 
     .section-service {
-        min-width: 50%;
+        min-width: 100%;
         margin-bottom: 30px;
     }
 
