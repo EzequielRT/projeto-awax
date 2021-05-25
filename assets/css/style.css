@@ -1196,10 +1196,29 @@ CSS DE AREAS ESPECIFICAS
         border-left: 0px;
     }
 
+    .section-projects--filters {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-projects--photo {
+        width: 320px;
+    }
+
+    .section-projects--photoarea {
+        width: 300px;
+        height: 190px;
+    }
+
     .section-team {
-        max-width: 580px;
+        max-width: 280px;
         max-height: 330px;
         overflow-y: hidden;
+    }
+
+    .section-happyclients p {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .section-icons {
@@ -1212,6 +1231,7 @@ CSS DE AREAS ESPECIFICAS
 
     .card-price {
         margin-bottom: 30px;
+        margin-right: 0px;
     }
 
     .section-premium {
@@ -1219,8 +1239,21 @@ CSS DE AREAS ESPECIFICAS
         align-items: center;
     }
 
+    .section-premium--left {
+        max-width: 280px;
+    }
+
+    .section-premium--left img {
+        width: 100%;
+    }
+
     .section-premium--right {
         margin-top: 40px;
+        max-width: 280px;
+    }
+
+    .feature--text {
+        max-width: 90%;
     }
 
     .section-map {
